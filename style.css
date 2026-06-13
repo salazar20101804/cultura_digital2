@@ -1,10 +1,9 @@
 .card{
-    background:#111;
+    background:#101010;
     border-radius:12px;
     padding:20px;
     margin:20px 0;
-    color:white;
-    box-shadow:0 0 10px rgba(0,255,255,.3);
+    color:#fff;
 }
 
 .orange{
@@ -23,14 +22,18 @@
     display:inline-block;
     margin-top:10px;
     margin-right:10px;
-    padding:10px 20px;
-    background:#00d4ff;
+    padding:12px 20px;
+    border-radius:8px;
+    background:#00bfff;
     color:white;
     text-decoration:none;
-    border-radius:8px;
     font-weight:bold;
 }
 
 .btn:hover{
     transform:scale(1.05);
+}
+
+.buttons{
+    margin-top:15px;
 }
