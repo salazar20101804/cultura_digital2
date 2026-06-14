@@ -1,235 +1,316 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cultura Digital</title>
+<title>Proyecto Cambio Climático</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#000;
+color:white;
+padding:40px;
+}
+
+header{
+text-align:center;
+margin-bottom:50px;
+animation:fadeDown 1s ease;
+}
+
+h1{
+font-size:3rem;
+border:2px solid white;
+display:inline-block;
+padding:15px 40px;
+border-radius:15px;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:25px;
+}
+
+.card{
+border:2px solid white;
+border-radius:20px;
+padding:25px;
+background:rgba(255,255,255,0.03);
+
+backdrop-filter:blur(5px);
+
+transition:.4s;
+animation:fadeUp 1s ease;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px rgba(255,255,255,.3);
+}
+
+.card h2{
+margin-bottom:15px;
+font-size:1.4rem;
+}
+
+.card p{
+line-height:1.7;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+border:2px solid white;
+color:white;
+text-decoration:none;
+border-radius:10px;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+color:black;
+}
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:8px;
+}
+
+footer{
+margin-top:50px;
+text-align:center;
+font-size:14px;
+opacity:.7;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes fadeDown{
+from{
+opacity:0;
+transform:translateY(-40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
-
-<h1 class="titulo">
-
-✨ Cultura Digital ✨
-
-</h1>
-
-<p class="subtitulo">
-
-Portafolio de proyectos y actividades
-
-</p>
-
+<h1>🌎 Proyecto Cambio Climático</h1>
 </header>
 
+<div class="container">
 
-<main class="grid">
+<!-- INTEGRANTES -->
 
+<div class="card">
+<h2>👥 Integrantes</h2>
 
-<!-- 1 -->
+<ul>
+<li><strong>Líder:</strong> Cruz Vázquez Anastacio</li>
+<li>Hernández García Jaziel</li>
+<li>García Castillo Juan Ángel</li>
+<li>Herver Castillo Kevin Yafet</li>
+<li>Ochoa Simbrón Oscar Manuel</li>
+<li>Salazar Simbrón Cristian Manuel</li>
+<li>Tapia Cabrera Brayan Alexis</li>
+</ul>
 
-<section class="card">
+</div>
 
-<h2>🔗 Proyecto en Figma</h2>
+<!-- FIGMA -->
+
+<div class="card">
+<h2>🎨 Diseño en Figma</h2>
 
 <p>
-
-Climate Change Data Analysis es un proyecto interactivo desarrollado en Figma Make para analizar datos relacionados con el cambio climático mediante visualizaciones y herramientas digitales.
-
+Proyecto referencial utilizado para desarrollar esta página web sobre el cambio climático.
 </p>
 
 <a class="btn"
-
 href="https://www.figma.com/make/HboA3IqzhzykTJkrE5Jeo6/Climate-Change-Data-Analysis?p=f&t=B947f9Sn5AqknTR4-0"
-
 target="_blank">
-
-Ver Proyecto
-
-</a>
-
-</section>
-
-
-
-<!-- 2 -->
-
-<section class="card">
-
-<h2>📈 Estadística con Excel</h2>
-
-<p>
-
-Aprendí la importancia de la estadística para analizar información de manera clara y organizada.
-
-Utilicé Excel para recopilar datos, clasificarlos y representarlos en tablas.
-
-También reforcé conocimientos sobre promedio, mediana, moda, rango, varianza y desviación estándar.
-
-</p>
-
-</section>
-
-
-
-<!-- 3 -->
-
-<section class="card">
-
-<h2>📊 Hoja de Cálculo sobre el Cambio Climático</h2>
-
-<p>
-
-Aprendí a organizar información en Google Sheets utilizando tablas y datos sobre temperatura global, CO₂ y nivel del mar.
-
-Comprendí la relación entre contaminación y calentamiento global.
-
-</p>
-
-<a class="btn"
-
-href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJr01fTSqbQ/edit?gid=0#gid=0"
-
-target="_blank">
-
-Ver Hoja
-
-</a>
-
-</section>
-
-
-
-<!-- 4 -->
-
-<section class="card">
-
-<h2>📄 Google Docs</h2>
-
-<p>
-
-Aprendí a crear y compartir documentos colaborativos utilizando Google Docs.
-
-Descubrí herramientas de formato, imágenes, tablas y trabajo en la nube.
-
-</p>
-
-<a class="btn"
-
-href="https://docs.google.com/document/d/1nNEwwgztAv_hBQ1vKQHtmepzXQN3tDjOHK2xbhpq-b0/edit?tab=t.0#heading=h.9nbbzl42tibm"
-
-target="_blank">
-
-Ver Documento
-
-</a>
-
-</section>
-
-
-
-<!-- 5 -->
-
-<section class="card">
-
-<h2>🖥️ Google Slides</h2>
-
-<p>
-
-Presentación sobre seguridad en Internet, riesgos digitales, protección de datos y contraseñas seguras.
-
-</p>
-
-<a class="btn"
-
-href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit?slide=id.p#slide=id.p"
-
-target="_blank">
-
-Ver Presentación
-
-</a>
-
-</section>
-
-
-
-<!-- 6 -->
-
-<section class="card">
-
-<h2>📐 Medidas Estadísticas</h2>
-
-<p>
-
-Investigué mediana, rango, varianza y desviación estándar.
-
-Aprendí cómo se calculan y cuál es su utilidad para interpretar datos correctamente.
-
-</p>
-
-<a class="btn"
-
-href="https://docs.google.com/document/d/1WJPBl7Hu1XzZqPQ0XqGMPl0Mm_3NCRvbB2Jr5y-5zhI/edit?tab=t.0"
-
-target="_blank">
-
-Ver Trabajo
-
-</a>
-
-</section>
-
-
-
-<!-- 7 -->
-
-<section class="card">
-
-<h2>🔗 Grupo de Enlaces</h2>
-
-<div class="links">
-
-<a href="https://www.figma.com/make/HboA3IqzhzykTJkrE5Jeo6/Climate-Change-Data-Analysis?p=f&t=B947f9Sn5AqknTR4-0" target="_blank">
-
-Proyecto Figma
-
-</a>
-
-<a href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJr01fTSqbQ/edit?gid=0#gid=0" target="_blank">
-
-Google Sheets
-
-</a>
-
-<a href="https://docs.google.com/document/d/1nNEwwgztAv_hBQ1vKQHtmepzXQN3tDjOHK2xbhpq-b0/edit?tab=t.0#heading=h.9nbbzl42tibm" target="_blank">
-
-Google Docs
-
-</a>
-
-<a href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit?slide=id.p#slide=id.p" target="_blank">
-
-Google Slides
-
+Abrir Figma
 </a>
 
 </div>
 
-</section>
+<!-- ESTADISTICA -->
 
-</main>
+<div class="card">
+<h2>📈 Estadística con Excel</h2>
 
-<script src="script.js"></script>
+<p>
+Aprendimos a recopilar datos, clasificarlos y representarlos mediante tablas y medidas estadísticas como promedio, mediana, moda, rango, varianza y desviación estándar.
+</p>
+
+</div>
+
+<!-- GOOGLE SHEETS -->
+
+<div class="card">
+<h2>📊 Hoja de Cálculo sobre el Cambio Climático</h2>
+
+<p>
+Actividad realizada en Google Sheets para analizar temperatura global, CO₂ y nivel del mar.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJr01fTSqbQ/edit?gid=0#gid=0"
+target="_blank">
+Abrir Hoja
+</a>
+
+<br><br>
+
+<a class="btn"
+href="https://youtu.be/xApZhkNcJyY?si=nFxf9XLPy7AhTJuG"
+target="_blank">
+Ver Video
+</a>
+
+</div>
+
+<!-- DOCS -->
+
+<div class="card">
+<h2>📄 Google Docs</h2>
+
+<p>
+Trabajo colaborativo sobre el Cambio Climático utilizando Google Docs y herramientas de productividad en la nube.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/document/d/1nNEwwgztAv_hBQ1vKQHtmepzXQN3tDjOHK2xbhpq-b0/edit"
+target="_blank">
+Abrir Documento
+</a>
+
+<br><br>
+
+<a class="btn"
+href="https://youtu.be/YYSDKfGEx1g?si=G5F4_LQ5HgWMLhcT"
+target="_blank">
+Ver Video
+</a>
+
+</div>
+
+<!-- SLIDES -->
+
+<div class="card">
+<h2>🖥️ Seguridad en Internet</h2>
+
+<p>
+Presentación realizada en Google Slides acerca de la seguridad digital, protección de datos y contraseñas seguras.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit"
+target="_blank">
+Abrir Presentación
+</a>
+
+<br><br>
+
+<a class="btn"
+href="https://youtu.be/F22DvfhKn2g?si=kdChWlp5_poIIMIh"
+target="_blank">
+Ver Video
+</a>
+
+</div>
+
+<!-- MEDIDAS -->
+
+<div class="card">
+<h2>📐 Medidas Estadísticas</h2>
+
+<p>
+Trabajo enfocado en mediana, rango, varianza y desviación estándar, explicando procedimientos y aplicaciones.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/document/d/1WJPBl7Hu1XzZqPQ0XqGMPl0Mm_3NCRvbB2Jr5y-5zhI/edit"
+target="_blank">
+Abrir Documento
+</a>
+
+</div>
+
+<!-- AUTOMOVILES -->
+
+<div class="card">
+<h2>🚗 Marcas de Automóviles</h2>
+
+<p>
+Comparación de ventas, velocidad máxima y consumo de combustible entre diferentes marcas automotrices.
+</p>
+
+<a class="btn"
+href="https://docs.google.com/spreadsheets/d/1IjU97hoA67qtle4-dP_ym_DfgXuWxWmuKV2nH214llU/edit?gid=0#gid=0"
+target="_blank">
+Abrir Tabla
+</a>
+
+</div>
+
+<!-- LINKS -->
+
+<div class="card">
+<h2>🔗 Todos los Trabajos</h2>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit" target="_blank">Google Slides</a></li>
+
+<li><a href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJr01fTSqbQ/edit" target="_blank">Google Sheets</a></li>
+
+<li><a href="https://docs.google.com/document/d/1nNEwwgztAv_hBQ1vKQHtmepzXQN3tDjOHK2xbhpq-b0/edit" target="_blank">Google Docs</a></li>
+
+<li><a href="https://docs.google.com/document/d/1WJPBl7Hu1XzZqPQ0XqGMPl0Mm_3NCRvbB2Jr5y-5zhI/edit" target="_blank">Medidas Estadísticas</a></li>
+
+<li><a href="https://docs.google.com/spreadsheets/d/1IjU97hoA67qtle4-dP_ym_DfgXuWxWmuKV2nH214llU/edit" target="_blank">Automóviles</a></li>
+
+<li><a href="https://www.figma.com/make/HboA3IqzhzykTJkrE5Jeo6/Climate-Change-Data-Analysis" target="_blank">Figma</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<footer>
+Proyecto Escolar • Cambio Climático • GitHub Pages
+</footer>
 
 </body>
-
 </html>
