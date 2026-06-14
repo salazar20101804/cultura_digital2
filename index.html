@@ -1,111 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Cultura Digital</title>
 
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background:#0a0a0a;
-color:white;
-padding:20px;
-}
-
-h1{
-text-align:center;
-color:#00ff99;
-margin-bottom:30px;
-text-shadow:0 0 20px #00ff99;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-gap:20px;
-max-width:1300px;
-margin:auto;
-}
-
-.card{
-
-background:#111;
-padding:20px;
-border-radius:15px;
-border:2px solid #00ff99;
-box-shadow:0 0 20px rgba(0,255,153,.3);
-
-}
-
-.card h2{
-
-color:#00ff99;
-margin-bottom:15px;
-
-}
-
-.card p{
-
-line-height:1.7;
-text-align:justify;
-
-}
-
-.btn{
-
-display:inline-block;
-margin-top:15px;
-padding:10px 20px;
-background:#00ff99;
-color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:10px;
-
-}
-
-.btn:hover{
-
-background:white;
-
-}
-
-.links a{
-
-display:block;
-margin:10px 0;
-color:#00c8ff;
-text-decoration:none;
-
-}
-
-.links a:hover{
-
-text-decoration:underline;
-
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<h1>CULTURA DIGITAL</h1>
+<header>
 
-<div class="grid">
+<h1 class="titulo">
 
-<!-- CASILLA 1 -->
+✨ Cultura Digital ✨
 
-<div class="card">
+</h1>
+
+<p class="subtitulo">
+
+Portafolio de proyectos y actividades
+
+</p>
+
+</header>
+
+
+<main class="grid">
+
+
+<!-- 1 -->
+
+<section class="card">
 
 <h2>🔗 Proyecto en Figma</h2>
 
@@ -125,35 +56,41 @@ Ver Proyecto
 
 </a>
 
-</div>
+</section>
 
 
-<!-- CASILLA 2 -->
 
-<div class="card">
+<!-- 2 -->
 
-<h2>📈 Estadística con Excel — Lo que aprendí</h2>
+<section class="card">
+
+<h2>📈 Estadística con Excel</h2>
 
 <p>
 
-Aprendí la importancia de la estadística para analizar información de manera clara y organizada. Utilicé Excel para recopilar datos, crear tablas y aplicar medidas estadísticas como promedio, mediana, moda, rango, varianza y desviación estándar.
+Aprendí la importancia de la estadística para analizar información de manera clara y organizada.
 
-Además, analicé información de distintas marcas de automóviles, comparando ventas, velocidad, consumo y calificaciones para identificar tendencias y diferencias importantes.
+Utilicé Excel para recopilar datos, clasificarlos y representarlos en tablas.
+
+También reforcé conocimientos sobre promedio, mediana, moda, rango, varianza y desviación estándar.
 
 </p>
 
-</div>
+</section>
 
 
-<!-- CASILLA 3 -->
 
-<div class="card">
+<!-- 3 -->
+
+<section class="card">
 
 <h2>📊 Hoja de Cálculo sobre el Cambio Climático</h2>
 
 <p>
 
-En Google Sheets organicé datos sobre temperatura global, CO₂ y nivel del mar. Aprendí a utilizar filas y columnas para analizar información y comprender la relación entre la contaminación y el calentamiento global.
+Aprendí a organizar información en Google Sheets utilizando tablas y datos sobre temperatura global, CO₂ y nivel del mar.
+
+Comprendí la relación entre contaminación y calentamiento global.
 
 </p>
 
@@ -163,22 +100,25 @@ href="https://docs.google.com/spreadsheets/d/1i_WAK523lht1olKVFJtyR0EkZhSQjfoYWJ
 
 target="_blank">
 
-Ver Hoja de Cálculo
+Ver Hoja
 
 </a>
 
-</div>
+</section>
 
 
-<!-- CASILLA 4 -->
 
-<div class="card">
+<!-- 4 -->
 
-<h2>📄 Google Docs sobre el Cambio Climático</h2>
+<section class="card">
+
+<h2>📄 Google Docs</h2>
 
 <p>
 
-Aprendí a utilizar Google Docs para crear y compartir documentos colaborativos. Descubrí herramientas de formato, inserción de imágenes, tablas y enlaces, además de las ventajas del trabajo en la nube.
+Aprendí a crear y compartir documentos colaborativos utilizando Google Docs.
+
+Descubrí herramientas de formato, imágenes, tablas y trabajo en la nube.
 
 </p>
 
@@ -192,18 +132,19 @@ Ver Documento
 
 </a>
 
-</div>
+</section>
 
 
-<!-- CASILLA 5 -->
 
-<div class="card">
+<!-- 5 -->
 
-<h2>🖥️ Google Slides — Seguridad en Internet</h2>
+<section class="card">
+
+<h2>🖥️ Google Slides</h2>
 
 <p>
 
-Realicé una presentación sobre seguridad en Internet investigando riesgos digitales, protección de datos personales y contraseñas seguras. Organicé la información en diapositivas con un diseño claro y profesional.
+Presentación sobre seguridad en Internet, riesgos digitales, protección de datos y contraseñas seguras.
 
 </p>
 
@@ -217,18 +158,21 @@ Ver Presentación
 
 </a>
 
-</div>
+</section>
 
 
-<!-- CASILLA 6 -->
 
-<div class="card">
+<!-- 6 -->
+
+<section class="card">
 
 <h2>📐 Medidas Estadísticas</h2>
 
 <p>
 
-En este trabajo elaboré una portada con información del equipo y utilicé colores para diferenciar cada apartado. Investigué conceptos como mediana, rango, varianza y desviación estándar, aprendiendo cómo se calculan y cuál es su utilidad para analizar e interpretar datos correctamente.
+Investigué mediana, rango, varianza y desviación estándar.
+
+Aprendí cómo se calculan y cuál es su utilidad para interpretar datos correctamente.
 
 </p>
 
@@ -242,12 +186,13 @@ Ver Trabajo
 
 </a>
 
-</div>
+</section>
 
 
-<!-- CASILLA 7 -->
 
-<div class="card">
+<!-- 7 -->
+
+<section class="card">
 
 <h2>🔗 Grupo de Enlaces</h2>
 
@@ -255,13 +200,7 @@ Ver Trabajo
 
 <a href="https://www.figma.com/make/HboA3IqzhzykTJkrE5Jeo6/Climate-Change-Data-Analysis?p=f&t=B947f9Sn5AqknTR4-0" target="_blank">
 
-Proyecto en Figma
-
-</a>
-
-<a href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit?slide=id.p#slide=id.p" target="_blank">
-
-Google Slides
+Proyecto Figma
 
 </a>
 
@@ -277,22 +216,20 @@ Google Docs
 
 </a>
 
-</div>
+<a href="https://docs.google.com/presentation/d/1Kj9JHQx1avQlIiF5zdfpd_oc6ckE1lTF9ZB9CtZ8kZ8/edit?slide=id.p#slide=id.p" target="_blank">
+
+Google Slides
+
+</a>
 
 </div>
 
-</div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
-<div class="card" style="animation-delay:.1s;">
-...
-</div>
-
-<div class="card" style="animation-delay:.2s;">
-...
-</div>
-
-<div class="card" style="animation-delay:.3s;">
-...
-</div>
